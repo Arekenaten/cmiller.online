@@ -6,7 +6,13 @@ import styled from 'styled-components'
 const name = 'Chase Miller'
 export const siteTitle = 'CmillerOnline'
 
-export default function Layout ({ children, home }) {
+export default function Layout ({ 
+    children, 
+    home 
+}: {
+    children: React.ReactNode
+    home?: boolean
+}) {
     return <Container>
         <Head>
             <link rel='icon' href='/favicon.ico' />
