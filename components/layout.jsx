@@ -53,9 +53,12 @@ const HeaderImage = () => {
 }
 
 const Container = styled.div`
-   max-width: 36rem;
-   padding: 0 1rem;
+   max-width: 46rem;
+   padding: 1rem 2rem;
    margin: 3rem auto 6rem;
+   background: #292929cf;
+   color: #cdcdcd;
+   border-radius: 5px;
 `
 
 const Header = styled.header`

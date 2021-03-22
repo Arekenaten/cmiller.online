@@ -8,14 +8,22 @@ body {
   font-size: 18px;
 }
 
+html {
+  background-image: linear-gradient(145deg, #a40606, #d98324);
+  background-size: cover;
+  min-height: 100%;
+}
+
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 h1 {
     margin: 1em 0;
+}
+
+p {
+    margin: 0.5em 0;
 }
 
 a {
